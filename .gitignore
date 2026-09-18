@@ -67,3 +67,5 @@ slurm-*.out
 cluster.md
 TrainingPlan.md
 main.tex
+# PDFs (paper drafts, not for the public repo)
+*.pdf
