@@ -24,5 +24,6 @@ OMP_NUM_THREADS=8 python3 pretrain.py \
     arch.enable_error_injection=True \
     arch.enable_stagnation_delta=True \
     +ema=True \
-    +run_name=SHREK_Tiny_Vanilla_Sudoku \
+    +seed=${SEED:?} \
+    +run_name=SHREK_Tiny_Vanilla_Sudoku_seed${SEED} \
     +project_name=SHREK_Ablation_Sudoku

@@ -20,4 +20,6 @@ OMP_NUM_THREADS=8 python3 pretrain.py \
     puzzle_emb_lr=1e-4 \
     weight_decay=1.0 \
     puzzle_emb_weight_decay=1.0 \
+    +seed=${SEED:?} \
+    +run_name=HRM_Maze_seed${SEED} \
     +project_name=HRM_Maze_Comparison

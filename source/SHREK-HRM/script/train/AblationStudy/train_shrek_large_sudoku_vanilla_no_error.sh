@@ -24,5 +24,6 @@ OMP_NUM_THREADS=8 python3 pretrain.py \
     arch.enable_error_injection=False \
     arch.enable_stagnation_delta=True \
     +ema=True \
-    +run_name=Ablation_No_Error_Injection \
+    +seed=${SEED:?} \
+    +run_name=Ablation_No_Error_Injection_seed${SEED} \
     +project_name=SHREK_Ablation_Sudoku
