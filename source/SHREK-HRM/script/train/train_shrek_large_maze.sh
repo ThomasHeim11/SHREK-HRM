@@ -2,6 +2,7 @@
 #SBATCH --job-name=shrek_large_maze
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/shrek_large_maze_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/shrek_large_maze_%j.err
 

@@ -2,6 +2,7 @@
 #SBATCH --job-name=orig_hrm
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/orig_hrm_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/orig_hrm_%j.err
 

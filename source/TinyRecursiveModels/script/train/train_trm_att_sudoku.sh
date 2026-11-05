@@ -2,6 +2,7 @@
 #SBATCH --job-name=trm_att
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/trm_att_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/trm_att_%j.err
 

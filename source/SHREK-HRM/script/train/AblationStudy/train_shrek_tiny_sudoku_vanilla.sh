@@ -2,6 +2,7 @@
 #SBATCH --job-name=shrek_tiny_van
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/shrek_tiny_vanilla_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/shrek_tiny_vanilla_%j.err
 

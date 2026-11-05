@@ -2,6 +2,7 @@
 #SBATCH --job-name=ablation_no_err
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/ablation_no_err_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/ablation_no_err_%j.err
 

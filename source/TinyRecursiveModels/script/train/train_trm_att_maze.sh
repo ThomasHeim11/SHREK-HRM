@@ -2,6 +2,7 @@
 #SBATCH --job-name=trm_att_maze
 #SBATCH --partition=gh200q
 #SBATCH --gres=gpu:1
+#SBATCH --propagate=NONE
 #SBATCH --output=/home/thheim/HMR/logs/trm_att_maze_%j.log
 #SBATCH --error=/home/thheim/HMR/logs/trm_att_maze_%j.err
 
