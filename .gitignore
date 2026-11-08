@@ -66,6 +66,7 @@ slurm-*.out
 # Cluster guide - contains sensitive connection details
 cluster.md
 TrainingPlan.md
+todo.md
 main.tex
 # PDFs (paper drafts, not for the public repo)
 *.pdf
